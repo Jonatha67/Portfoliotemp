@@ -29,7 +29,17 @@ export default function SocialLinks() {
         <a href={blog} aria-label="External link" className="link-icons">
           {Blog}
         </a>
+        
       )}
+
+<a
+    href="https://www.linkedin.com/in/jonathan-gutierrez-716a3625a/"
+    aria-label="Check out my LinkedIn profile."
+    className="link-icons"
+  >
+    <Icon icon="brandico:linkedin-rect" />
+  </a>
+
     </StyledSocialLinks>
   );
 }

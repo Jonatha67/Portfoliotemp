@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo from "./images/JDMJ.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -15,7 +15,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "Jonatha67";
 
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
@@ -35,12 +35,12 @@ export const skillData = [
   {
     id: 1,
     skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    name: "HTML",
   },
   {
     id: 2,
     skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    name: "CSS",
   },
   {
     id: 3,
@@ -57,11 +57,7 @@ export const skillData = [
     skill: <Icon icon="mdi:react" className="display-4" />,
     name: "React",
   },
-  {
-    id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
+  
   {
     id: 7,
     skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
@@ -77,6 +73,25 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+
+  {
+    id: 10,
+    skill:  < Icon icon="simple-icons:postgresql" className="display-4" />,
+    name: "PostgresSQL",
+  },
+
+  {
+    id: 10,
+    skill:  < Icon icon="fa-brands:node-js" className="display-4" />,
+    name: "Node.js",
+  },
+
+  {
+    id: 10,
+    skill:  < Icon icon="fa-brands:node-js" className="display-4" />,
+    name: "Node.js",
+  },
+
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -86,13 +101,18 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Starbuzz-Coffee", "JDMJ-RealEstate",];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "JDMJ-RealEstate",
     image: Logo,
+  },
+
+  {
+    name: "Starbuzz-Coffee",
+    
   },
 ];
 
