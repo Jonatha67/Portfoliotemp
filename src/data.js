@@ -25,7 +25,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "As a dedicated software engineer, I am committed to continuously expanding my skill set by learning new programming languages and technologies as required.With a comprehensive understanding of both front-end and back-end web application development, I possess a strong aptitude for delivering exceptional results.";
 
 /* Skills
  ************************************************************** 
