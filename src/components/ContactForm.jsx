@@ -76,6 +76,7 @@ export default function ContactForm() {
             <h5>Name must be at least one character.</h5>
           </Form.Control.Feedback>
         </Form.Group>
+
         <Form.Group className="mx-auto mb-3 form-group" controlId="email">
           <Form.Label>Email address</Form.Label>
           <Form.Control
@@ -87,6 +88,20 @@ export default function ContactForm() {
             <h5>Please enter a valid email.</h5>
           </Form.Control.Feedback>
         </Form.Group>
+
+        <Form.Group className="mx-auto mb-3 form-group" controlId="email">
+          <Form.Label>Phone Number</Form.Label>
+          <Form.Control
+            required
+            pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+            placeholder="Number"
+          />
+          <Form.Control.Feedback type="invalid">
+            <h5>Please enter a valid email.</h5>
+          </Form.Control.Feedback>
+        </Form.Group>
+
+
         <Form.Group className="mx-auto mb-3 form-group" controlId="message">
           <Form.Label>Message</Form.Label>
           <Form.Control required as="textarea" placeholder="Your message..." />
@@ -94,6 +109,7 @@ export default function ContactForm() {
             <h5>Please provide a valid message.</h5>
           </Form.Control.Feedback>
         </Form.Group>
+        
         <Form.Group className="mx-auto text-center form-group">
           {formspreeUrl && (
             <Button
