@@ -113,7 +113,7 @@ export const projectCardImages = [
   },
   {
     name: "Starbuzz-Coffee",
-    
+    image: g
   },
   {
     name: "Store-app",
